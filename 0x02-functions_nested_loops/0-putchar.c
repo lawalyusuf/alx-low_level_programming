@@ -1,13 +1,14 @@
+include "main.h"
 
-iinclude "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	putchar('');
+	_putchar('');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
