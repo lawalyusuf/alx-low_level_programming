@@ -6,7 +6,6 @@
  *
  * Return: Number matrix
  */
-
 void print_times_table(int n)
 {
 	int x, y, z;
@@ -18,7 +17,7 @@ void print_times_table(int n)
 			for (y = 0; y <= n; y++)
 			{
 				z = x * y;
-				z = x * y;
+				if (z > 99)
 				{
 					_putchar(',');
 					_putchar(32);
@@ -50,5 +49,3 @@ void print_times_table(int n)
 		}
 	}
 }
-
-		
