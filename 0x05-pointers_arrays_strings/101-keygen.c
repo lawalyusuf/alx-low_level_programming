@@ -2,8 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - generates keygen.
+ * Return: 0 Always.
+ */
 
-int main()
+int main(void)
 {
     char a[10],c[10],d;
     int i,j,k=0;
